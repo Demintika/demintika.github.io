@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<style>
+			.fileHeader > td{
+				font-weight: bold;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Bài tập lập trình Web</h1>
+		<table>
+			<thead>
+				<tr class="fileHeader">
+					<td>File</td>
+				</tr>
+			</thead>
+			<tbody id="fileList">
+			
+			</tbody>
+		</table>
+		<script>
+			function addRow(name) {
+				var row = document.createElement("tr");
+				row.innerHTML = "<tr><td><a href='" + name + "'>" + name + "</a></td></tr>";
+				document.getElementById("fileList").appendChild(row);
+			};
+			
+			addRow("Bai1.01.html");
+			addRow("Bai1.02.html");
+			addRow("Bai1.05.html");
+		</script>
+	</body>
+</html>
