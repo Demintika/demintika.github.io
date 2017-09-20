@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Bài 10</title>
+</head>
+<body>
+	<div style="display:inline-block;border:3px inset;padding:5px;overflow-y:scroll;color:green;">
+		<form>
+			<h2 align="center">Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+			<table border=1 style="width:100%;background:#e0f8d8;border-collapse:collapse;">
+				<tr>
+					<td>
+						<label for="ten">
+							Họ và tên
+						</label>
+					</td>
+					<td>
+						<input type="text" id="ten" style="width:300px"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="address">
+							Địa chỉ
+						</label>
+					</td>
+					<td>
+						<input type="text" id="address" style="width:250px"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="phone">
+							Điện thoại
+						</label>
+					</td>
+					<td>
+						<input type="text" id="phone" style="width:200px"/>
+					</td>
+				</tr>
+				<tr>
+					<td>Phái</td>
+					<td>
+						<label>
+							<input type="radio" name="gender" value="male"/>
+							<span>Nam</span>
+						</label>
+						<label>
+							<input type="radio" name="gender" value="female"/>
+							<span>Nữ</span>
+						</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Nghề nghiệp</td>
+					<td>
+						<select>
+							<option>Giáo viên</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Chọn sản phẩm tham gia</td>
+					<td>
+						<select multiple>
+							<option>Kem đánh răng</option>
+							<option>Bột giặt</option>
+							<option>Dầu gội dầu</option>
+							<option>Sữa tắm</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="guess">
+							Số người dự đoán tham gia
+						</label>
+					</td>
+					<td>
+						<input type="number" id="guess" style="width:50px"/>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" colspan=2>
+						<button type=submit align="center">Đồng ý</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
