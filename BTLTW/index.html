@@ -19,5 +19,16 @@
 			
 			</tbody>
 		</table>
+		<script>
+			function addRow(name) {
+				var row = document.createElement("tr");
+				row.innerHTML = "<tr><td><a href='" + name + "'>" + name + "</a></td></tr>";
+				document.getElementById("fileList").appendChild(row);
+			};
+			
+			addRow("Bai1.01.html");
+			addRow("Bai1.02.html");
+			addRow("Bai1.05.html");
+		</script>
 	</body>
 </html>
